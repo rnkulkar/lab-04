@@ -170,13 +170,26 @@ Are the assumptions for ANOVA satisfied? Comment on each assumption, including a
 
 8. Display the ANOVA table used to examine the relationship between cut and price for diamonds that are 0.5 carats.
 
-  
+                Df    Sum Sq Mean Sq F value Pr(>F)    
+  cut            3  11507056 3835685   31.92 <2e-16 ***
+  Residuals   1254 150706506  120181                   
+
 
 9. Use the ANOVA table from the previous question to calculate the sample variance of price. Show the code / formula used to calculate the sample variance.
 
+
+
+  The formula for variance is the sum of the square residuals divided by the number of observations, so we can take the Sum Sq column and divide it by n, which is the Mean Sq column. So we know the sample variance of the price is 120,181.
+
 10. What is $\sigma^2$, the estimated variance of price within each level of cut.
 
+  
+
 11. State the null and alternative hypotheses for the test conducted using the ANOVA table in Exercise 8. State the hypotheses using both statistical notation and words in the context of the data.
+
+  The null hypothesis is that the the mean price of the diamonds is not affected by the cut of the diamond.
+  
+  The alternative hypothesis is that the mean price of the diamonds is not affected by the cut of the diamond.
 
 12. What is your conclusion for the test specified in the previous question? State the conclusion in the context of the data.
   
